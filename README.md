@@ -67,16 +67,6 @@ python Interpolation/__main__.py
 5. View the step-by-step solutions for both methods side by side
 6. Click **Show Graph** to visualize the interpolating polynomial
 
-## Dependencies
-
-| Package      | Purpose                  | Required |
-|--------------|--------------------------|----------|
-| `numpy`      | Numerical computations   | Yes      |
-| `matplotlib` | Graph visualization      | Optional |
-| `tkinter`    | GUI framework            | Yes (bundled with Python) |
-
----
-
 ## Examples
 
 ### Example 1 — Paper Problem 3
