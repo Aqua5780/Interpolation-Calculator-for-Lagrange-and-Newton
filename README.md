@@ -154,9 +154,3 @@ where divided differences are computed recursively:
 $$f[x_i, \ldots, x_{i+k}] = \frac{f[x_{i+1}, \ldots, x_{i+k}] - f[x_i, \ldots, x_{i+k-1}]}{x_{i+k} - x_i}$$
 
 Both methods produce the **same** polynomial — the app verifies this automatically.
-
----
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
