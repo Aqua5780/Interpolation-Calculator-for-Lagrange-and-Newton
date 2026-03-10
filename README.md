@@ -67,36 +67,6 @@ python Interpolation/__main__.py
 5. View the step-by-step solutions for both methods side by side
 6. Click **Show Graph** to visualize the interpolating polynomial
 
----
-
-## Project Structure
-
-```
-Interpolation/
-├── __init__.py      # Package initializer
-├── __main__.py      # Entry point (python -m Interpolation)
-├── main.py          # App launcher
-├── app.py           # Main GUI class (InterpolationApp)
-├── lagrange.py      # Lagrange interpolation step-by-step renderer
-├── newton.py        # Newton's divided difference step-by-step renderer
-├── graph.py         # Matplotlib graph popup
-├── polynomial.py    # Polynomial arithmetic & pretty-printing
-├── helpers.py       # Number & symbol formatting utilities
-└── theme.py         # Colors, fonts, platform detection
-```
-
-| Module          | Purpose                                                        |
-|-----------------|----------------------------------------------------------------|
-| `theme.py`      | Platform detection (macOS/Windows), font families, color palette |
-| `helpers.py`    | Number formatting, subscript digits, signed display             |
-| `polynomial.py` | Polynomial multiplication, addition, scaling, root expansion    |
-| `lagrange.py`   | Full Lagrange method with basis polynomials and expansion       |
-| `newton.py`     | Full Newton DD with table, detailed calculations, evaluation    |
-| `graph.py`      | Matplotlib popup showing polynomial curve and data points       |
-| `app.py`        | Tkinter GUI: input panel, controls, result panels               |
-
----
-
 ## Dependencies
 
 | Package      | Purpose                  | Required |
