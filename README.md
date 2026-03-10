@@ -1,6 +1,6 @@
 # Interpolation Calculator
 
-A graphical calculator that solves **Lagrange Interpolation** and **Newton's Divided Difference** problems with full step-by-step solutions — just like solving by hand.
+A graphical calculator that solves **Lagrange Interpolation** and **Newton's Divided Difference** problems with full step-by-step solutions
 
 Built with Python and Tkinter. No external GUI frameworks required.
 
